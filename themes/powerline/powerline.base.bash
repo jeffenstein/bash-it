@@ -119,7 +119,7 @@ function __powerline_cwd_prompt {
 }
 
 function __powerline_hostname_prompt {
-    echo "$(hostname -s)|${HOST_THEME_PROMPT_COLOR}"
+    echo "$(uname -n | cut -d. -f1)|${HOST_THEME_PROMPT_COLOR}"
 }
 
 function __powerline_wd_prompt {
