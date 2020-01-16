@@ -4,7 +4,7 @@ SCM_THEME_PROMPT_SUFFIX=""
 SCM_THEME_PROMPT_DIRTY=" ${bold_red}✗${normal}"
 SCM_THEME_PROMPT_CLEAN=" ${bold_green}✓${normal}"
 SCM_GIT_CHAR="${bold_green}±${normal}"
-SCM_SVN_CHAR="${bold_cyan}⑆${normal}"
+SCM_SVN_CHAR="${bold_cyan}ß${normal}"
 SCM_HG_CHAR="${bold_red}☿${normal}"
 
 #Mysql Prompt

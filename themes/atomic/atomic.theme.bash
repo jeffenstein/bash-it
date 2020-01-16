@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# vim: fenc=utf-8
 # Atomic Bash Prompt for Bash-it
 # By lfelipe base on the theme brainy of MunifTanjim
 
