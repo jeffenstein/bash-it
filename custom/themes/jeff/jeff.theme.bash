@@ -68,8 +68,8 @@ function __my_prompt_command {
 
   # [[ "${last_status}" -ne 0 ]] && __powerline_left_segment $(__powerline_last_status_prompt ${last_status})
   # fix pwd... shorten ~ and use __c with fg_green
-  PS1="$(__my_username_prompt)$(__my_hostname_prompt)$(__my_clock_prompt)$(__my_last_status_prompt "${last_status}")
-$(__my_pwd_prompt)
+  PS1="Ɓ $(__my_username_prompt)$(__my_hostname_prompt)$(__my_clock_prompt)$(__my_last_status_prompt "${last_status}")
+Ɓ $(__my_pwd_prompt)
 \$ "
   # LEFT_PROMPT=""
   # SEGMENTS_AT_LEFT=0
